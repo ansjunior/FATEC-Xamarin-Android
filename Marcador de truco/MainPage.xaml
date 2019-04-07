@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MarcadorTruco"
+             x:Class="MarcadorTruco.MainPage">
+
+    <Grid RowSpacing="9" ColumnSpacing="2">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Linha 0-->
+        <Label Text="Nós"
+               FontSize="45"
+               Grid.Row="0"
+               Grid.Column="0"
+               FontAttributes="Bold"
+               BackgroundColor="DarkOrchid"
+               HorizontalTextAlignment="Center"
+               VerticalOptions="Center"/>
+
+        <Label Text="Eles"
+               FontSize="45"
+               Grid.Row="0"
+               Grid.Column="1"
+               FontAttributes="Bold"
+               BackgroundColor="LightSeaGreen"
+               HorizontalTextAlignment="Center"
+               VerticalOptions="Center"/>
+        
+        <!--LINHA APAGAR 1-->
+        <Button Text="-1"
+                Grid.Row="1"
+                Grid.Column="0"
+                BackgroundColor="DarkOrchid"
+                FontAttributes="Bold"
+                FontSize="15"
+                Clicked="OnTirarPontoJ1"/>
+
+        <Button Text="-1"
+                Grid.Row="1"
+                Grid.Column="1"
+                BackgroundColor="LightSeaGreen"
+                FontAttributes="Bold"
+                FontSize="15"
+                Clicked="OnTirarPontoJ2"/>
+              
+        <!-- Linha 2-->
+        <Label Text="0"
+               x:Name="Jogador1label"
+               FontSize="70"
+               Grid.Row="2"
+               Grid.Column="0"
+               HorizontalTextAlignment="Center"
+               Margin="0,0,0,0"
+               VerticalOptions="Center"/>
+
+        <Label Text="0"
+               x:Name="Jogador2label"
+               FontSize="70"
+               Grid.Row="2"
+               Grid.Column="1"
+               HorizontalTextAlignment="Center"
+               VerticalOptions="Center"/>
+
+        <!-- Linha 3-->
+        <Button Text="+1"
+                Grid.Row="3"
+                Grid.Column="0"
+                BackgroundColor="DarkOrchid"
+                FontAttributes="Bold"
+                FontSize="25"
+                Clicked="OnComputarPontoJ1"/>
+
+        <Button Text="+1"
+                Grid.Row="3"
+                Grid.Column="1"
+                BackgroundColor="LightSeaGreen"
+                FontAttributes="Bold"
+                FontSize="25"
+                Clicked="OnComputarPontoJ2"/>
+        
+
+        <!-- Linha 4-->
+        <Button Text="+3"
+                Grid.Row="4"
+                Grid.Column="0"
+                BackgroundColor="DarkOrchid"
+                FontAttributes="Bold"
+                FontSize="25"
+                Clicked="OnComputarPontoJ1"/>
+
+        <Button Text="+3"
+                Grid.Row="4"
+                Grid.Column="1"
+                BackgroundColor="LightSeaGreen"
+                FontAttributes="Bold"
+                FontSize="25"
+                Clicked="OnComputarPontoJ2"/>
+
+        <!-- Linha 5-->
+        <Button Text="+6"
+                Grid.Row="5"
+                Grid.Column="0"
+                BackgroundColor="DarkOrchid"
+                FontAttributes="Bold"
+                FontSize="25"
+                Clicked="OnComputarPontoJ1"/>
+
+        <Button Text="+6"
+                Grid.Row="5"
+                Grid.Column="1"
+                BackgroundColor="LightSeaGreen"
+                FontAttributes="Bold"
+                FontSize="25"
+                Clicked="OnComputarPontoJ2"/>
+
+        <!-- Linha 6-->
+        <Button Text="+9"
+                Grid.Row="6"
+                Grid.Column="0"
+                BackgroundColor="DarkOrchid"
+                FontAttributes="Bold"
+                FontSize="25"
+                Clicked="OnComputarPontoJ1"/>
+
+        <Button Text="+9"
+                Grid.Row="6"
+                Grid.Column="1"
+                BackgroundColor="LightSeaGreen"
+                FontAttributes="Bold"
+                FontSize="25"
+                Clicked="OnComputarPontoJ2"/>
+
+        <!-- Linha 7-->
+        <Button Text="+12"
+                Grid.Row="7"
+                Grid.Column="0"
+                BackgroundColor="DarkOrchid"
+                FontAttributes="Bold"
+                FontSize="25"
+                Clicked="OnComputarPontoJ1"/>
+
+        <Button Text="+12"
+                Grid.Row="7"
+                Grid.Column="1"
+                BackgroundColor="LightSeaGreen"
+                FontAttributes="Bold"
+                FontSize="25"
+                Clicked="OnComputarPontoJ2"/>
+
+        <!-- Linha 8-->
+        <Button Text="Zerar"
+                Grid.Row="8"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                BackgroundColor="DarkGoldenrod"
+                FontAttributes="Bold"
+                FontSize="50"
+                Clicked="OnNovoJogo"/>
+
+    </Grid>
+
+</ContentPage>
