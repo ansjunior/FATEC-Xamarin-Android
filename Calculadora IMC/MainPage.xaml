@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CalculadoraIMC2"
+             x:Class="CalculadoraIMC2.MainPage">
+
+    <StackLayout VerticalOptions="CenterAndExpand" Padding="20" >
+
+        <Label Text="Tabela IMC" TextColor="DarkGray" FontAttributes="Bold" FontSize="20" Margin="28,0,0,0"/>
+        <Label Text="Entre 18,5 e 24,99 = Peso normal" />
+        <Label Text="Entre 25 e 29,99 = Acima do peso" />
+        <Label Text="Entre 30 e 34,99 = Obesidade I" />
+        <Label Text="Entre 35 e 39,99 = Obesidade II - Severa!" />
+        <Label Text= " "/>
+        <Label Text="Nome" />
+        <Entry x:Name="nomeEntry" Placeholder="Digite seu nome"/>
+
+        <Label Text="Peso (KG)" />
+        <Entry x:Name="pesoEntry" Keyboard="Numeric" Placeholder="Digite seu peso (kg)"/>
+        <Label Text="Altura" />
+        <Entry x:Name="alturaEntry" Keyboard="Numeric" Placeholder="Digite sua altura (cm)"/>
+        <Button Text="Calcular IMC" Clicked="OnCalcular" Margin="0,20,0,0"/>
+    </StackLayout>
+
+</ContentPage>
