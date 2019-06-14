@@ -1,0 +1,13 @@
+C:\Users\Usuario\Downloads\BookSaver\BookSaver\BookSaver\bin\Debug\netstandard2.0\BookSaver.deps.json
+C:\Users\Usuario\Downloads\BookSaver\BookSaver\BookSaver\bin\Debug\netstandard2.0\BookSaver.dll
+C:\Users\Usuario\Downloads\BookSaver\BookSaver\BookSaver\bin\Debug\netstandard2.0\BookSaver.pdb
+C:\Users\Usuario\Downloads\BookSaver\BookSaver\BookSaver\obj\Debug\netstandard2.0\BookSaver.csprojAssemblyReference.cache
+C:\Users\Usuario\Downloads\BookSaver\BookSaver\BookSaver\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Usuario\Downloads\BookSaver\BookSaver\BookSaver\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Usuario\Downloads\BookSaver\BookSaver\BookSaver\obj\Debug\netstandard2.0\BookSaver.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Downloads\BookSaver\BookSaver\BookSaver\obj\Debug\netstandard2.0\BookSaver.AssemblyInfoInputs.cache
+C:\Users\Usuario\Downloads\BookSaver\BookSaver\BookSaver\obj\Debug\netstandard2.0\BookSaver.AssemblyInfo.cs
+C:\Users\Usuario\Downloads\BookSaver\BookSaver\BookSaver\obj\Debug\netstandard2.0\BookSaver.dll
+C:\Users\Usuario\Downloads\BookSaver\BookSaver\BookSaver\obj\Debug\netstandard2.0\BookSaver.pdb
+C:\Users\Usuario\Downloads\BookSaver\BookSaver\BookSaver\obj\Debug\netstandard2.0\NovoLivro.xaml.g.cs
+C:\Users\Usuario\Downloads\BookSaver\BookSaver\BookSaver\obj\Debug\netstandard2.0\XamlC.stamp
